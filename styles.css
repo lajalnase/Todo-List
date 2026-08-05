@@ -25,3 +25,14 @@ body {
 .todo-header{
   text-transform: uppercase;
 }
+
+input{
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+.btn-add{
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
