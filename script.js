@@ -1,6 +1,13 @@
 const todoInput = document.getElementById("todo-input")
 const addBtn = document.getElementById("btn-submit")
 const todoList = document.getElementById("todo-list")
+const todoForm = document.getElementById("todo-form");
+
+
+todoForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
+
 
 
 function addItem(){
@@ -13,4 +20,5 @@ function addItem(){
     
   }
 }
-addBtn.addEventListener('click', () =>{console.log("click") } );
+addBtn.addEventListener('click',addItem);
+
