@@ -14,8 +14,9 @@ function addItem(){
   const text = todoInput.value.trim();
   if (text !== ""){
     const li = document.createElement("li");
+    li.classList.add("lists")
     li.textContent = text;
-    todoList.appendChild(li);
+    todoList.prepend(li);
     todoInput.value = "";
     
   }

@@ -32,7 +32,15 @@ input{
   height: 30px;
 }
 .btn-add{
+  color: var(--background-color);
+  background-color: var(--text-color);
   border: none;
   border-radius: 5px;
   height: 30px;
+}
+.todo-list{
+  list-style-type: none;
+}
+.lists{
+  text-align: left;
 }
